@@ -1,0 +1,44 @@
+public class Calculator{
+    //This is a calculator program used for simple maths.
+    public Calculator(){
+      int a;
+      int b;
+      int add;
+      int subtract;
+      int multiply;
+      int divide;
+}
+      public int Add(int a, int b) {
+        
+      return a+b;
+      }
+
+      public int Subtract(int a, int b) {
+        
+        return a-b;
+      }
+
+      public int Multiply(int a, int b) {
+                
+        return a*b;
+      }
+
+       public int Divide(int a, int b) {
+        
+        return a/b;
+      }
+
+       public int Modulo(int a, int b) {
+        
+        return a % b;
+      }
+
+       public static void main(String[] args) {
+        
+        Calculator myCalculator = new Calculator();
+        
+        System.out.println(myCalculator.Add(5, 7));
+        System.out.println(myCalculator.Subtract(45, 11));
+
+      }      
+}
