@@ -1,5 +1,5 @@
 public class Dog {
-    
+//Use this simple concatenation example to play madlib with your friends.
 String breed;
 boolean hasOwner;
 int age;
